@@ -6,10 +6,7 @@ const nextConfig: NextConfig = {
     // Isse hum TypeScript errors ko ignore kar rahe hain taake deploy na ruke
     ignoreBuildErrors: true,
   },
-  eslint: {
-    // Isse hum ESLint warnings ko bhi ignore kar rahe hain
-    ignoreDuringBuilds: true,
-  },
+  // Eslint wala part hata diya hai kyunke wo error de raha tha
 };
 
 export default nextConfig;
